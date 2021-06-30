@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTask } from "../redux/actions";
 
-const AddTask = ({ handleFilter, filter }) => {
+const AddTask = () => {
   const [text, setText] = useState("");
   const dispatch = useDispatch();
   const handleAdd = () => {

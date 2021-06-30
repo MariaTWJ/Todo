@@ -6,14 +6,14 @@ import Task from "./Task";
 
 const TaskList = () => {
   const taskList = useSelector((state) => state.todos);
-  const [filter, setFilter] = useState(false);
-  const handleFilter = () => setFilter(!filter);
+  const [elem] = useState(false);
+  
   return (
     <div>
-      <AddTask handleFilter={handleFilter} filter={filter} />
-      {filter
+      <AddTask />
+      {elem
         ? taskList
-            .filter((task) => task.isDone)
+            .elem((task) => task.isDone)
             .map((el, index) => <Task todos={el} key={index} />)
         : taskList.map((el, index) => <Task todos={el} key={index} />)}
     </div>

@@ -1,9 +1,9 @@
 import { ADD_TASK, COMPLETE_TASK, DELETE_TASK } from "./actionTypes";
 
-export const addTask = (newTask) => {
+export const addTask = (newTodo) => {
   return {
     type: ADD_TASK,
-    payload: newTask,
+    payload: newTodo,
   };
 };
 

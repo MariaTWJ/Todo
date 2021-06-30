@@ -1,40 +1,43 @@
+.chbtn{
+background-color: green;
+color: white;
+}
+
+.delbtn{
+  background-color: tomato;
+  color: white;
+}
+
 
 .App {
   text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom:100px ;
+  padding-bottom: 50px;
 }
 .title {
-  
-  font-size: 8vh;
-  color: rgb(202, 233, 243);
+  font-size: 50px
 }
-body {
-  
-  width: 100%;
-  
-}
+
 .task {
   display:flix; 
   align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 2%;
-
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color:  #c2c2a3;
   font-size: 1.5rem;
-  padding: 0rem 2rem;
-  border: 1px solid cornflowerblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-radius: 20px;
 }
-.task-btn {
-  display: inline;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 80px;
-  flex-wrap: wrap;
-}
+
 
 .task h5 {
   font-family: Lemonada;
-  color: rgb(202, 233, 243);
   font-weight: bolder;
 }
 
@@ -46,31 +49,28 @@ input {
   width: 80vh;
   height: 5vh;
   border-radius: 10px;
-  border: 1px solid cyan;
-  font-family: Lemonada;
+  border: 1px solid black;
   font-size: 20px;
   background-color: transparent;
-  color: lightblue;
+  color: gray;
 }
 
-input:focus {
-  outline: none;
-}
+
 input:hover {
-  box-shadow: 2px 0px 0px 2px cornflowerblue;
+  box-shadow: 2px 0px 0px 2px #3E5151;
 }
 
 button {
-  height: 5vh;
-  width: 12vh;
-  border: 2px solid cyan;
+  height: 35px;
+  width: 80px;
+  
   border-radius: 10px;
-  font-family: Lemonada;
+
   margin: 10px;
-  color: rgb(202, 233, 243);
+  color: #3E5151;
 }
 button:hover {
-  background-color: cyan;
+  background-color: white;
   color: black;
 }
 
@@ -78,18 +78,4 @@ button:hover {
 
 
 
-#mdl {
-  background: rgb(117, 84, 160);
-  background: linear-gradient(
-    90deg,
-    rgba(117, 84, 160, 1) 7%,
-    rgba(117, 84, 160, 1) 17%,
-    rgba(106, 95, 168, 1) 29%,
-    rgba(99, 103, 174, 1) 44%,
-    rgba(87, 116, 184, 1) 66%,
-    rgba(70, 135, 198, 1) 83%,
-    rgba(44, 163, 219, 1) 96%,
-    rgba(22, 188, 237, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
-}
+
